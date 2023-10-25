@@ -30,7 +30,7 @@ function CartNote({displayData,setdeleteNoteStatus,setUpdateTheNote}) {
     }else{
      const responce =  await updateNote(updateDetail,id)
       if(responce.status>=200 && responce.status<300){
-        alert(`${responce.data.caption} note uploaded`)
+        alert(`${responce.data.caption} note updated`)
 
         setUpdateDetail({
           id:displayData?.id,caption:displayData?.caption,notes:displayData?.notes
