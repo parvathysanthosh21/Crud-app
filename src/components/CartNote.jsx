@@ -70,7 +70,7 @@ function CartNote({displayData,setdeleteNoteStatus,setUpdateTheNote}) {
         
       </Modal>
 
-      <Modal show={modalshow} onHide={handleMOdalClose}backdrop="static">
+      <Modal  show={modalshow} onHide={handleMOdalClose}backdrop="static">
         <Modal.Header closeButton>
           <Modal.Title  style={{color:'#78c2ad'}}>Edit Notes</Modal.Title>
         </Modal.Header>
